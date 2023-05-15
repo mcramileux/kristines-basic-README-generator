@@ -1,37 +1,37 @@
 
-# README Test Project
+## README Test Project
+ [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-quick test 
+A quick test on how to create a README using node.js with questions about the author hence how the application works
 
 ## Table of Contents
 - [README Test Project](#readme-test-project)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 
 ## Installation
 npm i  
 
 ## Usage
-by installing it 
+Clone the repository on your local machine and then run the command: node index.js. 
 
 ## License
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mcramileux/kristines-basic-README-generator)
+This project is [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
-This is an open source project - create a new branch and submit a pull request
+This is an open source project - create a new branch and submit a pull request. 
 
 ## Tests
 npm run test 
 
 ## Questions
-https://github.com/mcramileux 
-Contact me for further questions: kristineramilo21@gmail.com
+For more questions or inquiries, please contact the author at [GitHub](https://github.com/mcramileux) or email kristineramilo21@gmail.com.
   

@@ -1,10 +1,12 @@
+// Followed the step by steps in the mini-project for this challenge
+
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateREADME = ({ name, description, installation, usage, license, contributing, tests, questions, email }) =>
   `
-## README
+## NAME
  ${name}
 
 ## Description
@@ -26,7 +28,7 @@ ${installation}
 ${usage} 
 
 ## License
-[![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)](https://github.com/mcramileux/kristines-basic-README-generator)
+This project is ${license} license.
 
 ## Contributing
 ${contributing} 
@@ -35,11 +37,14 @@ ${contributing}
 ${tests} 
 
 ## Questions
-https://github.com/${questions} 
-Contact me for further questions: ${email}
+For more questions or inquiries, please contact the author at [GitHub](https://github.com/${answers.github}) or email ${answers.email}.
   `
 
-  ;
+;
+
+// TODO: Create an array of questions for user input
+// const questions = [];
+// Below are the array of questions
 
 inquirer
   .prompt([
@@ -67,7 +72,7 @@ inquirer
       type: 'list',
       name: 'license',
       message: 'What license does the project has?',
-      choices: ["MIT","None"]
+      choices: ['Apache', 'BDL', 'CDL', 'EPL', 'GNU', 'MIT', 'Not Licensed'],
     },
     {
       type: 'input',
@@ -90,6 +95,13 @@ inquirer
         message: 'Enter your email.',
     },
   ])
+
+  // TODO: Create a function to write README file
+  // function writeToFile(fileName, data) {}
+
+  // TODO: Create a function to initialize app
+  // function init() {}
+
   .then((answers) => {
     const mdPageContent = generateREADME(answers);
 
@@ -97,15 +109,6 @@ inquirer
       err ? console.log(err) : console.log('You have successfully created a README.md! Good job!')
     );
   });
-
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
 
 // Function call to initialize app
 init();
