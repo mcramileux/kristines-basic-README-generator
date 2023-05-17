@@ -30,7 +30,7 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-// ****Please see the generateREADME under index.js file as the generateMarkdown is located****
+// ****Please see the generateREADME under index.js file****
 function generateMarkdown(data) {
   return `# ${data.title}
 
