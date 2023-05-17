@@ -72,7 +72,7 @@ inquirer
       type: 'list',
       name: 'license',
       message: 'What license does the project has?',
-      choices: ['Apache', 'BDL', 'CDL', 'EPL', 'GNU', 'MIT', 'Not Licensed'],
+      choices: ['Apache', 'BSD', 'EPL', 'GPL', 'MIT', 'Unlicense'],
     },
     {
       type: 'input',
