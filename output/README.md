@@ -1,19 +1,18 @@
 
-## README Test Project 
+# README Test Project
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 A quick test on how to create a README using node.js with questions about the author hence how the application works 
 
 ## Table of Contents
-- [README Test Project](#readme-test-project)
-- [Description](#description)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 
 ## Installation

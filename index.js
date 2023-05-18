@@ -1,4 +1,5 @@
 // Followed the step by steps in the mini-project for this challenge
+const {renderLicenseBadge} = require('./utils/generateMarkdown')
 
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
@@ -6,8 +7,9 @@ const fs = require('fs');
 
 const generateREADME = ({ name, description, installation, usage, license, contributing, tests, questions, email }) =>
   `
-## NAME
- ${name}
+# ${name}
+
+${renderLicenseBadge(license)}
 
 ## Description
 ${description} 
@@ -39,7 +41,6 @@ ${tests}
 ## Questions
 For more questions or inquiries, please contact the author at [GitHub](https://github.com/${questions}) or email ${email}.
   `
-
 ;
 
 // TODO: Create an array of questions for user input
