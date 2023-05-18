@@ -15,8 +15,8 @@ This application is to showcase the user how to create a README.md using the com
   - [License](#license)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Screenshots - TO BE FOLLOWED](#screenshots---to-be-followed)
-  - [Video - - TO BE FOLLOWED](#video-----to-be-followed)
+  - [Screenshots](#screenshots)
+  - [Video](#video)
   - [Contributing](#contributing)
   - [Questions](#questions)
   - [Tests](#tests)
@@ -27,6 +27,7 @@ This application is to showcase the user how to create a README.md using the com
 ## Technologies Used
 * JavaScript
 * Node.js
+* Inquirer
 * Screencastify
 
 ## License
@@ -45,11 +46,25 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) license.
 - By typing node index.js, the following questions about you will display.
 - Answer the following questions to verify you identity and the project.
 - If there is wrong answer nor press the enter accidentally, don't worry, you can change the answers or update some related information in the README file.
-- For more information, watch this [video]. ---PUT THE LINK HERE
+- For more information, watch this [video](https://drive.google.com/file/d/1j6BRU-7XxrM7bYW5eVk5wduUmrlkTkZC/view).
 
-## Screenshots - TO BE FOLLOWED
+## Screenshots
+- License Badges used from the choices in the question.
+![licenses](https://github.com/mcramileux/kristines-basic-README-generator/assets/122607160/d68b280b-8a88-4a74-99fd-1207ba8b93d4)
 
-## Video - - TO BE FOLLOWED
+- README file.
+![readme](https://github.com/mcramileux/kristines-basic-README-generator/assets/122607160/5aef4ca7-33e5-4bbe-a713-3cf4b52edcab)
+
+![preview-readme](https://github.com/mcramileux/kristines-basic-README-generator/assets/122607160/d4c8c026-f80f-4019-a3c8-a05a94a1ba66)
+
+- README file created in JS.
+![readme-indexjs](https://github.com/mcramileux/kristines-basic-README-generator/assets/122607160/039a4578-d8a6-4d1d-99d4-aa724c276cf7)
+
+- Questions and Answers in making README.md using node.js.
+![readme-qa](https://github.com/mcramileux/kristines-basic-README-generator/assets/122607160/d5303e9f-9246-47e6-9fda-fc73413d1395)
+
+## Video
+Click here to see how the application works: https://drive.google.com/file/d/1j6BRU-7XxrM7bYW5eVk5wduUmrlkTkZC/view
 
 ## Contributing
 - Contributions to this project won't be accepted as this is the reflection of the author's work hence the following questions and answers. Furthermore, forking or creating a pull request is acceptable.
