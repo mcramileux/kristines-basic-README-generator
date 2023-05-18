@@ -37,7 +37,7 @@ ${contributing}
 ${tests} 
 
 ## Questions
-For more questions or inquiries, please contact the author at [GitHub](https://github.com/${answers.github}) or email ${answers.email}.
+For more questions or inquiries, please contact the author at [GitHub](https://github.com/${questions}) or email ${email}.
   `
 
 ;

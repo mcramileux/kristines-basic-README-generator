@@ -1,9 +1,8 @@
 
-## README Test Project
- [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+## README Test Project 
 
 ## Description
-A quick test on how to create a README using node.js with questions about the author hence how the application works
+A quick test on how to create a README using node.js with questions about the author hence how the application works 
 
 ## Table of Contents
 - [README Test Project](#readme-test-project)
@@ -21,13 +20,13 @@ A quick test on how to create a README using node.js with questions about the au
 npm i  
 
 ## Usage
-Clone the repository on your local machine and then run the command: node index.js. 
+Clone the repository on your local machine and then run the command: node index.js 
 
 ## License
-This project is [MIT](https://choosealicense.com/licenses/mit/) license.
+This project is MIT license.
 
 ## Contributing
-This is an open source project - create a new branch and submit a pull request. 
+This is an open source project - create a new branch and submit a pull request 
 
 ## Tests
 npm run test 
