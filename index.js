@@ -46,7 +46,8 @@ For more questions or inquiries, please contact the author at [GitHub](https://g
 // const questions = [];
 // Below are the array of questions
 
-inquirer
+function promptQuestions () {
+  return inquirer
   .prompt([
     {
       type: 'input',
@@ -95,13 +96,14 @@ inquirer
         message: 'Enter your email.',
     },
   ])
+};
 
   // TODO: Create a function to write README file
   // function writeToFile(fileName, data) {}
 
   // TODO: Create a function to initialize app
-  // function init() {}
-
+  function init() {
+    promptQuestions()
   .then((answers) => {
     const mdPageContent = generateREADME(answers);
 
@@ -109,6 +111,7 @@ inquirer
       err ? console.log(err) : console.log('You have successfully created a README.md! Good job!')
     );
   });
+  };
 
 // Function call to initialize app
 init();
