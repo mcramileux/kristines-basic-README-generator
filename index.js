@@ -1,7 +1,7 @@
 // Followed the step by steps in the mini-project for this challenge
 const {renderLicenseBadge} = require('./utils/generateMarkdown')
 
-// TODO: Include packages needed for this application
+// Import the packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -43,8 +43,6 @@ For more questions or inquiries, please contact the author at [GitHub](https://g
   `
 ;
 
-// TODO: Create an array of questions for user input
-// const questions = [];
 // Below are the array of questions
 
 function promptQuestions () {
@@ -99,10 +97,7 @@ function promptQuestions () {
   ])
 };
 
-  // TODO: Create a function to write README file
-  // function writeToFile(fileName, data) {}
-
-  // TODO: Create a function to initialize app
+  // Initializing the app
   function init() {
     promptQuestions()
   .then((answers) => {
