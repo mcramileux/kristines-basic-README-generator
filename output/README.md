@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-A quick test on how to create a README using node.js with questions about the author hence how the application works 
+A quick test on how to create a README using node.js with questions about the author hence how the application works  
 
 ## Table of Contents
 * [Installation](#installation)
@@ -19,7 +19,7 @@ A quick test on how to create a README using node.js with questions about the au
 npm i  
 
 ## Usage
-Clone the repository on your local machine and then run the command: node index.js 
+Clone the repository on your local machine and then run the command: node index.js  
 
 ## License
 This project is MIT license.

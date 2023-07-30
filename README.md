@@ -1,4 +1,4 @@
-# kristines-basic-README-generator
+# Kristine's Basic ReadME Generator
 9th Challenge: Node.js Challenge - Creating a Professional README Generator
 
 
@@ -8,7 +8,7 @@
 This application is to showcase the user how to create a README.md using the command line without using the web browser. To verify its functionality, the user should provide questions and answers relating to the user's details and its project for verification purposes.
 
 ## Table of Contents
-- [kristines-basic-README-generator](#kristines-basic-readme-generator)
+- [Kristine's Basic ReadME Generator](#kristines-basic-readme-generator)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Technologies Used](#technologies-used)
@@ -46,7 +46,7 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) license.
 - By typing node index.js, the following questions about you will display.
 - Answer the following questions to verify you identity and the project.
 - If there is wrong answer nor press the enter accidentally, don't worry, you can change the answers or update some related information in the README file.
-- For more information, watch this [video](https://drive.google.com/file/d/1j6BRU-7XxrM7bYW5eVk5wduUmrlkTkZC/view).
+- For more information, watch this [video](https://drive.google.com/file/d/1_BYfm-m_0afs1bW-OKp05V8TPabqo908/view).
 
 ## Screenshots
 - License Badges used from the choices in the question.
@@ -64,7 +64,7 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) license.
 ![readme-qa](https://github.com/mcramileux/kristines-basic-README-generator/assets/122607160/d5303e9f-9246-47e6-9fda-fc73413d1395)
 
 ## Video
-Click here to see how the application works: https://drive.google.com/file/d/1j6BRU-7XxrM7bYW5eVk5wduUmrlkTkZC/view
+Click here to see how the application works: https://drive.google.com/file/d/1_BYfm-m_0afs1bW-OKp05V8TPabqo908/view
 
 ## Contributing
 - Contributions to this project won't be accepted as this is the reflection of the author's work hence the following questions and answers. Furthermore, forking or creating a pull request is acceptable.
